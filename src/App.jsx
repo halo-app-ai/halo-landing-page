@@ -40,17 +40,17 @@ export default function App() {
           </div>
         </div>
 
-        <h1
-          style={{
-            fontSize: "clamp(42px, 6.5vw, 72px)",
-            lineHeight: 1.16,
-            fontWeight: 300,
-            letterSpacing: "-0.01em",
-            color: "#b07a1f",
-            margin: "0 auto",
-            maxWidth: "760px",
-          }}
-        >
+       <h1
+  style={{
+    fontSize: "clamp(42px, 6.5vw, 72px)",
+    lineHeight: 1.16,
+    fontWeight: 300,
+    letterSpacing: "-0.01em",
+    color: "#c9952f",
+    margin: "0 auto",
+    maxWidth: "760px",
+  }}
+>
           Trusted and instant support
           <br />
           when it matters most.
