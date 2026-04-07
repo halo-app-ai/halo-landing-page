@@ -22,7 +22,7 @@ body {
 
 .logo-glow {
   position: absolute;
-  inset: -30px;
+  inset: -34px;
   background: radial-gradient(
     circle,
     rgba(231, 194, 87, 0.2) 0%,
@@ -37,38 +37,109 @@ body {
 
 .sparkle {
   position: absolute;
-  width: 8px;
-  height: 8px;
   border-radius: 999px;
   background: rgba(234, 196, 86, 0.95);
   box-shadow: 0 0 12px rgba(234, 196, 86, 0.9);
-  animation: twinkle 3.6s ease-in-out infinite;
+  animation: twinkle 3.8s ease-in-out infinite;
   pointer-events: none;
   z-index: 4;
 }
 
-.sparkle.s1 {
-  top: 17%;
-  left: 27%;
+/* medium sparkles */
+.sparkle.m1,
+.sparkle.m2,
+.sparkle.m3,
+.sparkle.m4 {
+  width: 8px;
+  height: 8px;
+}
+
+/* small sparkles */
+.sparkle.s1,
+.sparkle.s2,
+.sparkle.s3,
+.sparkle.s4,
+.sparkle.s5,
+.sparkle.s6,
+.sparkle.s7,
+.sparkle.s8 {
+  width: 4px;
+  height: 4px;
+  box-shadow: 0 0 8px rgba(234, 196, 86, 0.75);
+}
+
+/* medium sparkle positions */
+.sparkle.m1 {
+  top: 16%;
+  left: 12%;
   animation-delay: 0s;
 }
 
+.sparkle.m2 {
+  top: 13%;
+  right: 13%;
+  animation-delay: 1.1s;
+}
+
+.sparkle.m3 {
+  top: 7%;
+  left: 48%;
+  animation-delay: 2s;
+}
+
+.sparkle.m4 {
+  top: 21%;
+  right: 38%;
+  animation-delay: 2.9s;
+}
+
+/* small sparkle positions - wider radius */
+.sparkle.s1 {
+  top: 8%;
+  left: -4%;
+  animation-delay: 0.4s;
+}
+
 .sparkle.s2 {
-  top: 14%;
-  right: 28%;
-  animation-delay: 1.2s;
+  top: 10%;
+  right: -2%;
+  animation-delay: 1.6s;
 }
 
 .sparkle.s3 {
-  top: 8%;
-  left: 49%;
-  animation-delay: 2.1s;
+  top: 20%;
+  left: -8%;
+  animation-delay: 2.5s;
 }
 
 .sparkle.s4 {
-  top: 20%;
-  right: 43%;
-  animation-delay: 2.9s;
+  top: 24%;
+  right: -7%;
+  animation-delay: 3.2s;
+}
+
+.sparkle.s5 {
+  top: 4%;
+  left: 28%;
+  animation-delay: 0.9s;
+}
+
+.sparkle.s6 {
+  top: 5%;
+  right: 29%;
+  animation-delay: 2.2s;
+}
+
+.sparkle.s7 {
+  top: 29%;
+  left: 18%;
+  animation-delay: 3s;
+}
+
+.sparkle.s8 {
+  top: 31%;
+  right: 19%;
+  animation-delay: 1.8s;
 }
 
 .ring-shimmer {
@@ -80,9 +151,9 @@ body {
   background: linear-gradient(
     110deg,
     rgba(255, 255, 255, 0) 0%,
-    rgba(255, 248, 220, 0.0) 30%,
+    rgba(255, 248, 220, 0) 30%,
     rgba(255, 247, 214, 0.85) 48%,
-    rgba(255, 255, 255, 0.0) 66%,
+    rgba(255, 255, 255, 0) 66%,
     rgba(255, 255, 255, 0) 100%
   );
   filter: blur(2px);
@@ -98,19 +169,19 @@ body {
   0%,
   100% {
     opacity: 0;
-    transform: scale(0.45);
+    transform: scale(0.5);
   }
-  25% {
+  22% {
     opacity: 0.95;
     transform: scale(1);
   }
   50% {
-    opacity: 0.35;
-    transform: scale(0.78);
+    opacity: 0.3;
+    transform: scale(0.8);
   }
   72% {
     opacity: 1;
-    transform: scale(1.15);
+    transform: scale(1.14);
   }
 }
 
@@ -162,5 +233,12 @@ body {
     border-radius: 14px !important;
     width: 100%;
     margin-top: 12px;
+  }
+
+  .sparkle.s1,
+  .sparkle.s2,
+  .sparkle.s3,
+  .sparkle.s4 {
+    display: none;
   }
 }
