@@ -1,4 +1,4 @@
-import haloLogo from "../HALO_Main_Logo_Square.png";
+
 export default function App() {
   return (
     <main
@@ -25,8 +25,8 @@ export default function App() {
             <span className="sparkle s3"></span>
             <span className="sparkle s4"></span>
 
- <img
-  src={haloLogo}
+<img
+  src="https://raw.githubusercontent.com/halo-app-ai/halo-landing-page/main/HALO_Main_Logo_Square.png"
   alt="HALO logo"
   style={{
     width: "280px",
