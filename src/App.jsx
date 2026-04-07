@@ -3,149 +3,168 @@ export default function App() {
     <main
       style={{
         minHeight: "100vh",
-        background: "#f5f3ef",
+        background: "#ffffff",
         color: "#1f2937",
         fontFamily: "Inter, Arial, sans-serif",
-        padding: "60px 24px"
+        padding: "48px 24px 80px",
       }}
     >
       <div
         style={{
-          maxWidth: "1100px",
+          maxWidth: "980px",
           margin: "0 auto",
-          textAlign: "center"
+          textAlign: "center",
         }}
       >
-        <div
-          style={{
-            display: "inline-block",
-            padding: "10px 16px",
-            borderRadius: "999px",
-            border: "1px solid rgba(212,175,55,0.3)",
-            color: "#8b7355",
-            letterSpacing: "0.22em",
-            fontSize: "12px",
-            marginBottom: "28px"
-          }}
-        >
-          ALWAYS WITH YOU
+        <div style={{ marginBottom: "34px" }}>
+          <div className="logo-wrap">
+            <div className="logo-glow"></div>
+            <span className="sparkle s1"></span>
+            <span className="sparkle s2"></span>
+            <span className="sparkle s3"></span>
+            <span className="sparkle s4"></span>
+
+            <img
+              src="/HALO_Main_Logo_Square.png"
+              alt="HALO logo"
+              style={{
+                width: "280px",
+                maxWidth: "78vw",
+                display: "block",
+                margin: "0 auto",
+                position: "relative",
+                zIndex: 2,
+              }}
+            />
+          </div>
         </div>
 
         <h1
           style={{
-            fontSize: "clamp(42px, 7vw, 76px)",
-            lineHeight: 1.1,
+            fontSize: "clamp(42px, 6.5vw, 72px)",
+            lineHeight: 1.16,
             fontWeight: 300,
-            letterSpacing: "0.03em",
-            color: "#b8871b",
+            letterSpacing: "-0.01em",
+            color: "#b07a1f",
             margin: "0 auto",
-            maxWidth: "900px"
+            maxWidth: "760px",
           }}
         >
-          Trusted and instant support when it matters most.
+          Trusted and instant support
+          <br />
+          when it matters most.
         </h1>
 
         <p
           style={{
-            maxWidth: "760px",
-            margin: "28px auto 0",
-            fontSize: "22px",
-            lineHeight: 1.6,
-            color: "#4b5563"
+            maxWidth: "720px",
+            margin: "34px auto 0",
+            fontSize: "clamp(20px, 2.2vw, 22px)",
+            lineHeight: 1.9,
+            color: "#3f434a",
+            fontWeight: 400,
           }}
         >
-          HALO is a new kind of emotional support companion — designed to help
-          people move from overwhelm to steadiness, and from coping to real inner strength.
+          HALO is a new kind of emotional support companion —
+          <br />
+          designed to help you move from overwhelm to
+          <br />
+          steadiness, and from coping to real inner
+          <br />
+          strength.
         </p>
 
-        <div style={{ marginTop: "40px" }}>
+        <div style={{ marginTop: "42px" }}>
           <a
             href="#waitlist"
             style={{
               display: "inline-block",
               borderRadius: "999px",
-              padding: "16px 26px",
-              fontSize: "13px",
-              letterSpacing: "0.16em",
+              padding: "18px 42px",
+              fontSize: "14px",
+              letterSpacing: "0.08em",
               fontWeight: 600,
-              background: "#d4af37",
-              color: "white",
-              textDecoration: "none"
+              background:
+                "linear-gradient(135deg, #c8902f 0%, #e0b04f 55%, #c78c2b 100%)",
+              color: "#ffffff",
+              textDecoration: "none",
+              boxShadow: "0 10px 24px rgba(212, 175, 55, 0.22)",
             }}
           >
             JOIN EARLY ACCESS
           </a>
         </div>
 
-        <section style={{ marginTop: "80px" }}>
-          <h2
-            style={{
-              fontSize: "clamp(32px, 5vw, 52px)",
-              fontWeight: 300,
-              marginBottom: "20px"
-            }}
-          >
-            The missing layer between distress, recovery, and growth.
-          </h2>
+        <section id="waitlist" style={{ marginTop: "74px" }}>
           <p
             style={{
-              maxWidth: "780px",
-              margin: "0 auto",
-              fontSize: "18px",
-              lineHeight: 1.7,
-              color: "#4b5563"
-            }}
-          >
-            Most tools break down at the exact moment people need help most.
-            HALO is designed for the moment the chest tightens, the mind starts
-            spiralling, and support is needed now.
-          </p>
-        </section>
-
-        <section
-          id="waitlist"
-          style={{
-            marginTop: "90px",
-            background: "white",
-            border: "1px solid rgba(212,175,55,0.2)",
-            borderRadius: "28px",
-            padding: "40px 24px"
-          }}
-        >
-          <h2
-            style={{
-              fontSize: "clamp(28px, 4vw, 46px)",
-              fontWeight: 300,
-              marginBottom: "16px"
+              fontSize: "clamp(22px, 2.8vw, 28px)",
+              lineHeight: 1.4,
+              color: "#4b4f55",
+              fontWeight: 400,
+              margin: 0,
             }}
           >
             Be first to experience HALO.
-          </h2>
-          <p
-            style={{
-              maxWidth: "700px",
-              margin: "0 auto 24px",
-              fontSize: "18px",
-              lineHeight: 1.7,
-              color: "#4b5563"
-            }}
-          >
-            Join the early waitlist for launch updates, private previews, and first
-            access to a new kind of support companion.
           </p>
 
-          <input
-            type="email"
-            placeholder="Enter your email"
+          <div style={{ height: "44px" }} />
+
+          <div
             style={{
-              width: "min(100%, 420px)",
-              height: "52px",
-              borderRadius: "999px",
-              border: "1px solid rgba(212,175,55,0.2)",
-              padding: "0 18px",
-              fontSize: "16px"
+              maxWidth: "560px",
+              margin: "0 auto",
+              paddingTop: "18px",
+              borderTop: "1px solid rgba(0,0,0,0.08)",
             }}
-          />
+          >
+            <form
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "0",
+                flexWrap: "wrap",
+              }}
+            >
+              <input
+                type="email"
+                placeholder="Enter your email"
+                style={{
+                  flex: "1 1 300px",
+                  minWidth: "240px",
+                  height: "56px",
+                  borderRadius: "14px 0 0 14px",
+                  border: "1px solid rgba(0,0,0,0.12)",
+                  borderRight: "none",
+                  padding: "0 20px",
+                  fontSize: "16px",
+                  color: "#4b4f55",
+                  outline: "none",
+                  background: "#ffffff",
+                }}
+              />
+              <button
+                type="submit"
+                style={{
+                  height: "56px",
+                  border: "none",
+                  borderRadius: "0 14px 14px 0",
+                  padding: "0 26px",
+                  fontSize: "13px",
+                  letterSpacing: "0.04em",
+                  fontWeight: 600,
+                  background:
+                    "linear-gradient(135deg, #c8902f 0%, #e0b04f 55%, #c78c2b 100%)",
+                  color: "#ffffff",
+                  cursor: "pointer",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                JOIN EARLY ACCESS
+              </button>
+            </form>
+          </div>
         </section>
       </div>
     </main>
