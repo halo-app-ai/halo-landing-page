@@ -48,7 +48,7 @@ export default function App() {
     letterSpacing: "-0.01em",
     color: "#c9952f",
     margin: "0 auto",
-    maxWidth: "760px",
+   maxWidth: "700px",
   }}
 >
           Trusted and instant support
