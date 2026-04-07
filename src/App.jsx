@@ -7,7 +7,7 @@ export default function App() {
         background: "#ffffff",
         color: "#1f2937",
         fontFamily: "Inter, Arial, sans-serif",
-        padding: "48px 24px 80px",
+       padding: "18px 24px 80px",
       }}
     >
       <div
@@ -17,14 +17,14 @@ export default function App() {
           textAlign: "center",
         }}
       >
-        <div style={{ marginBottom: "34px" }}>
+        <div style={{ marginBottom: "24px" }}>
           <div className="logo-wrap">
             <div className="logo-glow"></div>
             <span className="sparkle s1"></span>
             <span className="sparkle s2"></span>
             <span className="sparkle s3"></span>
             <span className="sparkle s4"></span>
-
+ <div className="ring-shimmer"></div>
 <img
   src="https://raw.githubusercontent.com/halo-app-ai/halo-landing-page/main/HALO_Main_Logo_Square.png"
   alt="HALO logo"
@@ -46,7 +46,7 @@ export default function App() {
     lineHeight: 1.16,
     fontWeight: 300,
     letterSpacing: "-0.01em",
-    color: "#c9952f",
+    color: "#d2a13a",
     margin: "0 auto",
     maxWidth: "700px",
   }}
