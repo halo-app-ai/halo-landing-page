@@ -29,8 +29,8 @@ export default function App() {
   src="https://raw.githubusercontent.com/halo-app-ai/halo-landing-page/main/HALO_Main_Logo_Square.png"
   alt="HALO logo"
   style={{
-    width: "420px",
-    maxWidth: "88vw",
+    width: "480px",
+    maxWidth: "90vw",
     display: "block",
     margin: "0 auto",
     position: "relative",
