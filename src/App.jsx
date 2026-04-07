@@ -7,7 +7,7 @@ export default function App() {
         background: "#ffffff",
         color: "#1f2937",
         fontFamily: "Inter, Arial, sans-serif",
-       padding: "24px 24px 80px",
+       padding: "5px 24px 80px",
       }}
     >
       <div
@@ -17,7 +17,7 @@ export default function App() {
           textAlign: "center",
         }}
       >
-        <div style={{ marginBottom: "32px" }}>
+        <div style={{ marginBottom: "12px" }}>
           <div className="logo-wrap">
             <div className="logo-glow"></div>
             <span className="sparkle s1"></span>
