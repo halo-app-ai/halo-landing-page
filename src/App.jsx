@@ -25,7 +25,7 @@ export default function App() {
             <span className="sparkle s4"></span>
 
             <img
-  src="./HALO_Main_Logo_Square.png"
+  src="HALO_Main_Logo_Square.png"
   alt="HALO logo"
   style={{
     width: "280px",
