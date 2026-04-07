@@ -62,7 +62,7 @@ export default function App() {
             margin: "34px auto 0",
             fontSize: "clamp(20px, 2.2vw, 22px)",
             lineHeight: 1.9,
-            color: "#3f434a",
+            color: "#5f6368,
             fontWeight: 400,
           }}
         >
