@@ -40,7 +40,7 @@ export default function App() {
           </div>
         </div>
 
-       <h1
+  <h1
   style={{
     fontSize: "clamp(42px, 6.5vw, 72px)",
     lineHeight: 1.16,
@@ -48,7 +48,7 @@ export default function App() {
     letterSpacing: "-0.01em",
     color: "#c9952f",
     margin: "0 auto",
-   maxWidth: "700px",
+    maxWidth: "700px",
   }}
 >
           Trusted and instant support
@@ -56,16 +56,16 @@ export default function App() {
           when it matters most.
         </h1>
 
-        <p
-          style={{
-            maxWidth: "720px",
-            margin: "34px auto 0",
-            fontSize: "clamp(20px, 2.2vw, 22px)",
-            lineHeight: 1.9,
-            color: "#5f6368",
-            fontWeight: 400,
-          }}
-        >
+      <p
+  style={{
+    maxWidth: "720px",
+    margin: "34px auto 0",
+    fontSize: "clamp(20px, 2.2vw, 22px)",
+    lineHeight: 1.9,
+    color: "#5f6368",
+    fontWeight: 400,
+  }}
+>
           HALO is a new kind of emotional support companion —
           <br />
           designed to help you move from overwhelm to
