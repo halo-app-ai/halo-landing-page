@@ -20,10 +20,19 @@ export default function App() {
         <div style={{ marginBottom: "12px" }}>
           <div className="logo-wrap">
             <div className="logo-glow"></div>
-            <span className="sparkle s1"></span>
-            <span className="sparkle s2"></span>
-            <span className="sparkle s3"></span>
-            <span className="sparkle s4"></span>
+          <span className="sparkle m1"></span>
+<span className="sparkle m2"></span>
+<span className="sparkle m3"></span>
+<span className="sparkle m4"></span>
+
+<span className="sparkle s1"></span>
+<span className="sparkle s2"></span>
+<span className="sparkle s3"></span>
+<span className="sparkle s4"></span>
+<span className="sparkle s5"></span>
+<span className="sparkle s6"></span>
+<span className="sparkle s7"></span>
+<span className="sparkle s8"></span>
  <div className="ring-shimmer"></div>
 
             <img
