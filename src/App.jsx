@@ -20,7 +20,7 @@ export default function App() {
 
 
      <div style={{ marginBottom: "14px", textAlign: "center" }}>
-  <div className="logo-wrap">
+<div className="logo-wrap sparkles-off">
     <span className="sparkle m1"></span>
     <span className="sparkle m2"></span>
     <span className="sparkle m3"></span>
