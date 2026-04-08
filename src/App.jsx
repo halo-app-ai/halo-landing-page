@@ -33,7 +33,7 @@ export default function App() {
 <span className="sparkle s6"></span>
 <span className="sparkle s7"></span>
 <span className="sparkle s8"></span>
- <div className="ring-shimmer"></div>
+ <div className="logo-sheen"></div>
 
             <img
   src="https://raw.githubusercontent.com/halo-app-ai/halo-landing-page/main/HALO_Main_Logo_Square.png"
