@@ -36,7 +36,7 @@ export default function App() {
     <span className="sparkle s8"></span>
 
     <img
-      src="https://raw.githubusercontent.com/halo-app-ai/halo-landing-page/main/HALO_Main_Logo_Square.png"
+      src="https://raw.githubusercontent.com/halo-app-ai/halo-landing-page/main/HALO_Face_Logo.png"
       alt="HALO symbol"
       style={{
         width: "300px",
