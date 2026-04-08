@@ -60,15 +60,8 @@ export default function App() {
           when it matters most.
         </h1>
 
-      <p
-  style={{
-    maxWidth: "720px",
-    margin: "34px auto 0",
-    fontSize: "clamp(20px, 2.2vw, 22px)",
-    lineHeight: 1.9,
-    color: "#5f6368",
-    fontWeight: 400,
-  }}
+      <p className="support-heading"
+
 >
           HALO is a new kind of emotional support companion —
           <br />
