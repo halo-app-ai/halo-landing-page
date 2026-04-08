@@ -20,6 +20,10 @@ body {
   overflow: visible;
 }
 
+.sparkles-off .sparkle {
+  display: none;
+}
+
 .sparkle {
   position: absolute;
   border-radius: 999px;
@@ -39,8 +43,8 @@ body {
 .sparkle.m2,
 .sparkle.m3,
 .sparkle.m4 {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
 }
 
 /* small sparkles */
@@ -175,6 +179,7 @@ body {
   background-size: 220% auto;
   background-position: 0% center;
   animation: haloWordShimmer 8s ease-in-out infinite;
+  animation-delay: 0s;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -258,14 +263,19 @@ body {
   margin: 0 auto;
   max-width: 700px;
   background: linear-gradient(
-    90deg,
+    100deg,
     #b77714 0%,
-    #f0c14b 20%,
-    #d39a2c 42%,
+    #f0c14b 18%,
+    #d39a2c 34%,
+    #fff4c7 48%,
     #f7d86b 52%,
     #cb8e22 68%,
     #e6b348 100%
   );
+  background-size: 220% auto;
+  background-position: 0% center;
+  animation: haloWordShimmer 8s ease-in-out infinite;
+  animation-delay: 0s;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
