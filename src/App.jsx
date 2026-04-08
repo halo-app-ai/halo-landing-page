@@ -17,38 +17,41 @@ export default function App() {
           textAlign: "center",
         }}
       >
-        <div style={{ marginBottom: "12px" }}>
-          <div className="logo-wrap">
-            <div className="logo-glow"></div>
-          <span className="sparkle m1"></span>
-<span className="sparkle m2"></span>
-<span className="sparkle m3"></span>
-<span className="sparkle m4"></span>
 
-<span className="sparkle s1"></span>
-<span className="sparkle s2"></span>
-<span className="sparkle s3"></span>
-<span className="sparkle s4"></span>
-<span className="sparkle s5"></span>
-<span className="sparkle s6"></span>
-<span className="sparkle s7"></span>
-<span className="sparkle s8"></span>
- <div className="logo-sheen"></div>
 
-            <img
-  src="https://raw.githubusercontent.com/halo-app-ai/halo-landing-page/main/HALO_Main_Logo_Square.png"
-  alt="HALO logo"
-  style={{
-    width: "520px",
-    maxWidth: "90vw",
-    display: "block",
-    margin: "0 auto",
-    position: "relative",
-    zIndex: 2,
-  }}
-/>
-          </div>
-        </div>
+        <div style={{ marginBottom: "10px", textAlign: "center" }}>
+  <div className="logo-wrap">
+    <span className="sparkle m1"></span>
+    <span className="sparkle m2"></span>
+    <span className="sparkle m3"></span>
+    <span className="sparkle m4"></span>
+
+    <span className="sparkle s1"></span>
+    <span className="sparkle s2"></span>
+    <span className="sparkle s3"></span>
+    <span className="sparkle s4"></span>
+    <span className="sparkle s5"></span>
+    <span className="sparkle s6"></span>
+    <span className="sparkle s7"></span>
+    <span className="sparkle s8"></span>
+
+    <img
+      src="https://raw.githubusercontent.com/halo-app-ai/halo-landing-page/main/HALO_Main_Logo_Square.png"
+      alt="HALO symbol"
+      style={{
+        width: "300px",
+        maxWidth: "68vw",
+        display: "block",
+        margin: "0 auto 18px",
+        position: "relative",
+        zIndex: 2,
+      }}
+    />
+  </div>
+
+  <div className="halo-wordmark">HALO</div>
+  <div className="halo-tagline">ALWAYS WITH YOU</div>
+</div>
 
   <h1
   style={{
