@@ -34,11 +34,14 @@ body {
 .sparkle {
   position: absolute;
   border-radius: 999px;
-  background: rgba(234, 196, 86, 0.95);
-  box-shadow: 0 0 12px rgba(234, 196, 86, 0.9);
-  animation: twinkle 3.8s ease-in-out infinite;
+  background: rgba(244, 199, 82, 0.98);
+  box-shadow:
+    0 0 6px rgba(244, 199, 82, 0.95),
+    0 0 14px rgba(244, 199, 82, 0.75),
+    0 0 24px rgba(244, 199, 82, 0.35);
+  animation: twinkle 2.8s ease-in-out infinite;
   pointer-events: none;
-  z-index: 4;
+  z-index: 5;
 }
 
 /* medium sparkles */
@@ -46,8 +49,8 @@ body {
 .sparkle.m2,
 .sparkle.m3,
 .sparkle.m4 {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
 }
 
 /* small sparkles */
@@ -59,10 +62,14 @@ body {
 .sparkle.s6,
 .sparkle.s7,
 .sparkle.s8 {
-  width: 4px;
-  height: 4px;
-  box-shadow: 0 0 8px rgba(234, 196, 86, 0.75);
+  width: 3px;
+  height: 3px;
+  box-shadow:
+    0 0 4px rgba(244, 199, 82, 0.9),
+    0 0 10px rgba(244, 199, 82, 0.55);
 }
+
+
 
 /* medium sparkle positions */
 .sparkle.m1 {
@@ -149,22 +156,25 @@ body {
 }
 
 @keyframes twinkle {
-  0%,
-  100% {
-    opacity: 0;
-    transform: scale(0.5);
+  0%, 100% {
+    opacity: 0.12;
+    transform: scale(0.45);
   }
-  22% {
-    opacity: 0.95;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.3;
-    transform: scale(0.8);
-  }
-  72% {
+  18% {
     opacity: 1;
-    transform: scale(1.14);
+    transform: scale(1.05);
+  }
+  38% {
+    opacity: 0.35;
+    transform: scale(0.72);
+  }
+  58% {
+    opacity: 0.95;
+    transform: scale(1.12);
+  }
+  78% {
+    opacity: 0.2;
+    transform: scale(0.55);
   }
 }
 
@@ -327,6 +337,7 @@ body {
   letter-spacing: 0.28em;
   line-height: 1.2;
   margin-top: 12px;
+  margin-bottom: 28px;
   color: #7b7b7b;
 }
 
