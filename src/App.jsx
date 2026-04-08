@@ -110,7 +110,7 @@ export default function App() {
               maxWidth: "560px",
               margin: "0 auto",
               paddingTop: "18px",
-              borderTop: "1px solid rgba(0,0,0,0.08)",
+              borderTop: "0px solid rgba(0,0,0,0.08)",
             }}
           >
             <form
