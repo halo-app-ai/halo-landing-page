@@ -56,7 +56,7 @@ export default function App() {
   <div className="halo-tagline">ALWAYS WITH YOU</div>
 </div>
 
-  <h1 className="hero-gradient-heading" >
+  <h1 className="hero-gradient-heading shimmer-on">
           Trusted and instant support
           <br />
           when it matters most.
