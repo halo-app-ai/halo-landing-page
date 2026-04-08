@@ -34,7 +34,8 @@ export default function App() {
     <span className="sparkle s6"></span>
     <span className="sparkle s7"></span>
     <span className="sparkle s8"></span>
-
+ <div className="halo-ring-sheen"></div>
+    
     <img
       src="https://raw.githubusercontent.com/halo-app-ai/halo-landing-page/main/HALO_Face_Logo.png"
       alt="HALO symbol"
@@ -53,17 +54,7 @@ export default function App() {
   <div className="halo-tagline">ALWAYS WITH YOU</div>
 </div>
 
-  <h1
-  style={{
-    fontSize: "clamp(42px, 6.5vw, 72px)",
-    lineHeight: 1.16,
-    fontWeight: 300,
-    letterSpacing: "-0.01em",
-    color: "#d2a13a",
-    margin: "0 auto",
-    maxWidth: "700px",
-  }}
->
+  <h1 className="hero-gradient-heading" >
           Trusted and instant support
           <br />
           when it matters most.
