@@ -28,7 +28,7 @@ body {
     0 0 6px rgba(244, 199, 82, 0.95),
     0 0 14px rgba(244, 199, 82, 0.75),
     0 0 24px rgba(244, 199, 82, 0.35);
-  animation: twinkle 2.2s ease-in-out infinite;
+  animation: twinkle 5.2s ease-in-out infinite;
   pointer-events: none;
   z-index: 5;
   will-change: transform, opacity;
@@ -180,6 +180,7 @@ body {
 .halo-wordmark-wrap {
   position: relative;
   display: inline-block;
+  overflow: hidden;
 }
 
 .halo-wordmark {
@@ -206,42 +207,44 @@ body {
   color: transparent;
 }
 
-.halo-wordmark-sheen {
+
+.halo-wordmark-wrap::after {
+  content: "";
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: -8%;
+  bottom: -8%;
+  width: 18%;
   left: -24%;
-  width: 22%;
   background: linear-gradient(
     110deg,
     rgba(255, 255, 255, 0) 0%,
-    rgba(255, 248, 220, 0.0) 35%,
-    rgba(255, 255, 255, 0.82) 50%,
-    rgba(255, 248, 220, 0.22) 60%,
+    rgba(255, 248, 220, 0) 35%,
+    rgba(255, 255, 255, 0.9) 50%,
+    rgba(255, 248, 220, 0.28) 60%,
     rgba(255, 255, 255, 0) 100%
   );
   transform: skewX(-18deg);
-  filter: blur(4px);
+  filter: blur(3px);
   opacity: 0;
   pointer-events: none;
   z-index: 3;
-  animation: haloWordSweep 7.2s ease-in-out infinite;
+  animation: haloWordSweep 8.5s ease-in-out infinite;
 }
 
 @keyframes haloWordSweep {
-  0%, 68%, 100% {
+  0%, 72%, 100% {
     left: -24%;
     opacity: 0;
   }
-  74% {
-    opacity: 0.2;
+  77% {
+    opacity: 0.22;
   }
-  82% {
-    left: 104%;
-    opacity: 0.65;
+  85% {
+    left: 108%;
+    opacity: 0.72;
   }
-  88% {
-    opacity: 0.08;
+  90% {
+    opacity: 0.06;
   }
 }
 
