@@ -301,10 +301,8 @@ body {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
-
 .halo-wordmark {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Avenir, Montserrat, Helvetica, Arial, sans-serif;
   font-size: clamp(72px, 12vw, 150px);
   font-weight: 400;
   letter-spacing: 0.12em;
