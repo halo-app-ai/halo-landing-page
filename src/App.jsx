@@ -52,7 +52,6 @@ export default function App() {
 
 <div className="halo-wordmark-wrap">
   <div className="halo-wordmark">HALO</div>
-  <div className="halo-wordmark-sheen"></div>
 </div>
   <div className="halo-tagline">ALWAYS WITH YOU</div>
 </div>
