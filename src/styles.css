@@ -177,6 +177,74 @@ body {
   color: transparent;
 }
 
+.halo-wordmark-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.halo-wordmark {
+  position: relative;
+  z-index: 2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(62px, 10.5vw, 126px);
+  font-weight: 400;
+  letter-spacing: 0.11em;
+  line-height: 1;
+  margin-top: 0;
+  background: linear-gradient(
+    90deg,
+    #b77714 0%,
+    #f0c14b 20%,
+    #d39a2c 42%,
+    #f7d86b 52%,
+    #cb8e22 68%,
+    #e6b348 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.halo-wordmark-sheen {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -24%;
+  width: 22%;
+  background: linear-gradient(
+    110deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 248, 220, 0.0) 35%,
+    rgba(255, 255, 255, 0.82) 50%,
+    rgba(255, 248, 220, 0.22) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-18deg);
+  filter: blur(4px);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 3;
+  animation: haloWordSweep 7.2s ease-in-out infinite;
+}
+
+@keyframes haloWordSweep {
+  0%, 68%, 100% {
+    left: -24%;
+    opacity: 0;
+  }
+  74% {
+    opacity: 0.2;
+  }
+  82% {
+    left: 104%;
+    opacity: 0.65;
+  }
+  88% {
+    opacity: 0.08;
+  }
+}
+
 .halo-tagline {
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(16px, 2.3vw, 28px);
