@@ -421,10 +421,10 @@ font-weight: 300;
 
 .support-heading {
   font-family: 'Montserrat', sans-serif;
-    maxWidth: "720px",
-    margin: "34px auto 0",
-    fontSize: "clamp(20px, 2.2vw, 22px)",
-    lineHeight: 1.9,
+    maxWidth: "720px";
+    margin: "34px auto 0";
+    fontSize: "clamp(20px, 2.2vw, 22px)";
+    lineHeight: 1.9;
  letter-spacing: 0.01em;
       color: #6b6f74;
     fontWeight: 300,
