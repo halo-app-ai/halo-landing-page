@@ -297,3 +297,40 @@ body {
     opacity: 0.08;
   }
 }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+.halo-wordmark {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(72px, 12vw, 150px);
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  margin-top: 6px;
+  background: linear-gradient(
+    90deg,
+    #b77714 0%,
+    #f0c14b 20%,
+    #d39a2c 42%,
+    #f7d86b 52%,
+    #cb8e22 68%,
+    #e6b348 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.halo-tagline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(18px, 2.8vw, 34px);
+  font-weight: 300;
+  letter-spacing: 0.34em;
+  line-height: 1.2;
+  margin-top: 14px;
+  color: #7b7b7b;
+}
