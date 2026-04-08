@@ -242,3 +242,45 @@ body {
     display: none;
   }
 }
+
+.logo-wrap {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.logo-sheen {
+  position: absolute;
+  inset: -8%;
+  background: linear-gradient(
+    115deg,
+    rgba(255,255,255,0) 35%,
+    rgba(255,248,220,0.0) 42%,
+    rgba(255,247,214,0.55) 50%,
+    rgba(255,255,255,0.0) 58%,
+    rgba(255,255,255,0) 65%
+  );
+  transform: translateX(-140%) skewX(-18deg);
+  animation: logoSweep 8.2s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 4;
+  mix-blend-mode: screen;
+  filter: blur(3px);
+}
+
+@keyframes logoSweep {
+  0%, 68%, 100% {
+    transform: translateX(-140%) skewX(-18deg);
+    opacity: 0;
+  }
+  72% {
+    opacity: 0.15;
+  }
+  80% {
+    transform: translateX(140%) skewX(-18deg);
+    opacity: 0.55;
+  }
+  84% {
+    opacity: 0.18;
+  }
+}
