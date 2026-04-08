@@ -43,7 +43,7 @@ export default function App() {
         width: "300px",
         maxWidth: "68vw",
         display: "block",
-        margin: "0 auto 18px",
+        margin: "0 auto 8px",
         position: "relative",
         zIndex: 2,
       }}
@@ -101,14 +101,8 @@ export default function App() {
         </div>
 
         <section id="waitlist" style={{ marginTop: "74px" }}>
-          <p
-            style={{
-              fontSize: "clamp(22px, 2.8vw, 28px)",
-              lineHeight: 1.4,
-              color: "#4b4f55",
-              fontWeight: 400,
-              margin: 0,
-            }}
+          <p className="waitlist-heading"
+           
           >
             Be first to experience HALO.
           </p>
